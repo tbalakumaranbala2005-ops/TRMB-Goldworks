@@ -1,0 +1,154 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TRMB Goldworks — Handcrafted Gold & Repair</title>
+  <meta name="description" content="TRMB Goldworks: custom gold ornaments, polishing, resizing & expert repair. Handcrafted with care for generations." />
+  <!-- Open Graph -->
+  <meta property="og:title" content="TRMB Goldworks — Handcrafted Gold & Repair" />
+  <meta property="og:description" content="Custom gold ornaments, polishing, resizing & expert repair. Visit our shop today!" />
+  <meta property="og:image" content="placeholder-image.jpg" />
+  <meta property="og:type" content="website" />
+  <style>
+    :root{--accent:#b38800;--muted:#666;--bg:#fff9f1;--card:#ffffff}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:linear-gradient(180deg,#fffefc 0%, #fff9f1 100%); color:#222}
+    header{padding:28px 18px; display:flex; align-items:center; justify-content:space-between; gap:12px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:56px;height:56px; border-radius:12px; display:grid;place-items:center;background:linear-gradient(135deg,#ffd700 0%, #f0c20a 100%); box-shadow:0 6px 18px rgba(0,0,0,0.08)}
+    .logo svg{width:36px;height:36px}
+    h1{font-size:20px;margin:0}
+    header .cta{display:flex;gap:10px}
+    .btn{background:var(--accent); color:white; padding:10px 14px; border-radius:10px; text-decoration:none; font-weight:600}
+    main{padding:18px}
+    .hero{display:grid;grid-template-columns:1fr;gap:18px;align-items:center}
+    .hero-inner{background:var(--card); padding:18px;border-radius:14px; box-shadow:0 6px 24px rgba(16,16,16,0.06)}
+    .lead{font-size:18px;margin:0 0 8px}
+    .sub{color:var(--muted);margin:0 0 12px}
+    .features{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+    .feature{flex:1 1 140px;background:#fff;padding:12px;border-radius:10px;box-shadow:0 4px 16px rgba(11,11,11,0.03)}
+    .grid{display:grid; grid-template-columns:repeat(2,1fr); gap:12px; margin-top:16px}
+    .card{background:var(--card); padding:14px;border-radius:12px; box-shadow:0 6px 20px rgba(12,12,12,0.04)}
+    .gallery{display:flex;gap:8px;flex-wrap:wrap}
+    .gallery img{width:calc(50% - 4px); border-radius:8px}
+    footer{padding:18px;border-top:1px solid rgba(0,0,0,0.04); color:var(--muted)}
+    .contact-list{display:flex;flex-direction:column; gap:8px}
+    .pill{display:inline-block;padding:8px 12px;border-radius:999px;background:#fff;font-weight:600}
+    @media(min-width:780px){
+      .hero{grid-template-columns:1fr 420px}
+      .gallery img{width:100%}
+      .grid{grid-template-columns:repeat(3,1fr)}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="logo" aria-hidden>
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 3C9 6 6 7 6 11c0 4 6 10 6 10s6-6 6-10c0-4-3-5-6-8z" fill="#fff" opacity="0.12"/>
+          <path d="M12 2l2.2 4.4L19 8l-3 2 1 4-4-2-4 2 1-4-3-2 4.8-1.6L12 2z" fill="#fff"/>
+        </svg>
+      </div>
+      <div>
+        <h1>TRMB Goldworks</h1>
+        <div style="color:var(--muted);font-size:13px">Handcrafted gold ornaments & expert repairs</div>
+      </div>
+    </div>
+    <div class="cta">
+      <a class="btn" href="tel:+911234567890">Call: +91 9360571964</a>
+      <a class="pill" href="#contact">Book Repair</a>
+    </div>
+  </header>  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="lead">Crafting smiles since 1990 — bespoke gold jewellery & trustworthy repair services.</p>
+        <p class="sub">Custom designs, resizing, polishing, stone setting and emergency repair. Family-owned workshop with attention to detail.</p><div class="features" aria-hidden>
+      <div class="feature">
+        <strong>Custom Pieces</strong>
+        <div style="font-size:13px;color:var(--muted)">Design consultation & CAD previews</div>
+      </div>
+      <div class="feature">
+        <strong>Repair & Resizing</strong>
+        <div style="font-size:13px;color:var(--muted)">Fast, secure soldering & stone safety</div>
+      </div>
+      <div class="feature">
+        <strong>Polish & Rhodium</strong>
+        <div style="font-size:13px;color:var(--muted)">Bring old pieces back to life</div>
+      </div>
+    </div>
+
+    <div style="margin-top:14px;display:flex;gap:10px">
+      <a class="btn" href="#contact">Get a Quote</a>
+      <a class="pill" href="#gallery">See Work</a>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3 style="margin:0 0 6px">Why choose us?</h3>
+        <p style="margin:0;color:var(--muted);font-size:14px">Trusted craftsmanship, transparent pricing, and secure handling of your valuables.</p>
+      </div>
+
+      <div class="card">
+        <h3 style="margin:0 0 6px">Guaranteed safety</h3>
+        <p style="margin:0;color:var(--muted);font-size:14px">Registered jewellery maker — insured workmanship and confidentiality.</p>
+      </div>
+
+      <div class="card" id="gallery">
+        <h3 style="margin:0 0 6px">Gallery</h3>
+        <div class="gallery">
+          <img src="placeholder-1.jpg" alt="Gold necklace example" />
+          <img src="placeholder-2.jpg" alt="Ring closeup" />
+        </div>
+        <p style="font-size:12px;color:var(--muted);margin-top:8px">(Replace placeholders with real photos of your work.)</p>
+      </div>
+    </div>
+  </div>
+
+  <aside class="card">
+    <img src="father.jpg" alt="Owner M. THANGARAJ" style="width:100%;border-radius:12px;margin-bottom:12px;" />
+    <h3 style="margin-top:0">Quick info</h3>
+    <div class="contact-list">
+      <div><strong>Owner: M. THANGARAJ</strong> Mr. Ramaswamy</div>
+      <div><strong>Shop:</strong> Main Street, Kovilpatti</div>
+      <div><strong>Phone:</strong> <a href="tel:+911234567890">+91 9360571964</a></div>
+      <div><strong>Email:</strong> <a href="mailto:shrigoldsmiths@example.com">shrigoldsmiths@example.com</a></div>
+    </div>
+
+    <div style="margin-top:12px">
+      <a class="btn" href="https://wa.me/911234567890" target="_blank" rel="noopener">WhatsApp Us</a>
+    </div>
+
+    <div style="margin-top:12px;font-size:13px;color:var(--muted)">Open: Mon–Sat, 9:30AM–6:30PM</div>
+  </aside>
+</section>
+
+<section class="card" id="contact" style="margin-top:18px;">
+  <h2 style="margin-top:0">Request a quote / Repair booking</h2>
+  <p style="color:var(--muted);margin:6px 0 12px">Describe the job and we'll reply within a day. (Or call for urgent repairs.)</p>
+
+  <!-- Simple contact form that uses mailto as fallback. Replace action with a server endpoint if available. -->
+  <form action="mailto:shrigoldsmiths@example.com" method="post" enctype="text/plain">
+    <div style="display:flex;flex-direction:column;gap:8px">
+      <input name="name" placeholder="Your name" required style="padding:10px;border-radius:8px;border:1px solid #eee" />
+      <input name="phone" placeholder="Phone" required style="padding:10px;border-radius:8px;border:1px solid #eee" />
+      <input name="what" placeholder="Service required (e.g., ring resize)" style="padding:10px;border-radius:8px;border:1px solid #eee" />
+      <textarea name="details" placeholder="Details..." rows="4" style="padding:10px;border-radius:8px;border:1px solid #eee"></textarea>
+      <div style="display:flex;gap:10px">
+        <button class="btn" type="submit">Send request</button>
+        <a class="pill" href="tel:+911234567890">Call now</a>
+      </div>
+    </div>
+  </form>
+</section>
+
+  </main>  <footer>
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+      <div>© TRMB Goldworks — Skilled Handwork</div>
+      <div style="color:var(--muted);font-size:13px">Made with ❤️ — family-owned since 1995</div>
+    </div>
+  </footer>
+</body>
+</html>
